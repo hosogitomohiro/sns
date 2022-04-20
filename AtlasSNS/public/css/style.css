@@ -1,0 +1,210 @@
+@charset "utf-8";
+.hidden-print {
+    display: none !important;
+  }
+html{
+}
+body{
+}
+.imglist{
+    width: 80px;
+    padding:0 15px;
+}
+/*MyProfil*/
+#MyProfilItem{
+    float: right;
+}
+.plofile_edit{
+    color:#fff;
+    background: red;
+}
+/*login*/
+.login_name{
+    color: aliceblue;
+}
+.login_menu{
+    color: aliceblue;
+}
+.login_icon{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+.user_icon{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+
+/* header */
+header.loginhome{
+    
+    height:100vh;
+    background-color:#186AC9;
+    background-image: linear-gradient(0deg, #ddf126 0%, #186AC9 50%);
+}
+header{
+    display: flex;
+    background: #186AC9;
+}
+h1.logintitle{
+    padding:100px 45% ;
+}
+section{
+    background-color:#ccd8ff;
+    padding:0px 0;
+}
+div#container{
+    width:500px;
+    height:200px;
+    background-color:#4773ff;
+    margin:0 auto;
+}
+li{
+    list-style:none;
+    border-bottom: 1px solid #000;
+}
+.post-content{
+    width:100%;
+    padding:15px;
+}
+.post-content > div{
+    display:flex;
+    justify-content:space-between;
+}
+.post-name{
+    margin-bottom:10px;
+}
+.edit{
+    margin-right: auto;
+}
+img{
+    width: 70px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+.title{
+    margin:  0 auto;
+}
+.logintitle{
+    width: 200px;
+	height: auto;
+}
+.loginsubtitle{
+
+    width: 200px;
+    padding:0 50% ;
+}
+.atlastitle{
+    width: 150px;
+	height: auto;
+    
+}
+.cleate{
+    width: 30px;
+	height: auto;
+}
+.create_time{
+    float: right;
+}
+a{
+    width: 30px;
+    height: 30px;
+
+}
+
+h4{
+    text-align: right;
+}
+h3{
+    text-align: right;
+}
+/*post*/
+.post_img{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+/* update/delete */
+.update_img{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+
+.delete_img{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+
+/* main content */
+#list{
+    width: 79%;
+}
+#row{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#container{
+    flex: 0 0 70%;
+}
+div#side-bar{
+    flex: 0 0 19%;
+    margin-right: auto;
+    border-left: 1px solid #727272;
+}
+
+#head{
+    width:100%;
+}
+#MyProfil{
+
+    float: right;
+}
+
+#toggle {
+    display: none;
+    cursor: pointer;
+    }
+  #menu {
+    display: none;
+    }
+  #toggle:checked + #menu {
+    display: block;
+    }
+    /*followbotton*/
+.btn--orange,a.btn--orange {
+  color: #fff;
+  background-color: #0004eb;
+}
+.btn--orange:hover,a.btn--orange:hover {
+  color: #fff;
+  background: #797bd3;
+}
+/*プロフィール編集*/
+div.card{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/*フォローボタン*/
+
+.user_img{
+    width: 30px;
+    padding:0 15px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+.userid{
+    color:crimson;
+}
